@@ -23,9 +23,10 @@
   .product-wrapper__std__block {
     display: flex;
     justify-content: space-between;
+    padding-top: 2.5%;
   }
   .product-wrapper__std__block__box {
-    width: 33%;
+    width: 25%;
     margin: 0 auto;
   }
   .product-wrapper__std__block__box__img {
@@ -52,9 +53,10 @@
   .product-wrapper__mf__block {
     display: flex;
     justify-content: space-between;
+    padding-top: 2.5%;
   }
   .product-wrapper__mf__block__box {
-    width: 33%;
+    width: 25%;
     margin: 0 auto;
   }
   .product-wrapper__mf__block__box__img {

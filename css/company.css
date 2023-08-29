@@ -4,7 +4,8 @@
     margin: 0 auto;
 }
 .company-wrapper {
-    width: 100%;
+    width: 80%;
+    margin: 0 auto;
     padding: 2.5% 0;
 }
 .company-wrapper__list {
@@ -23,11 +24,12 @@
   font-size: 1.25rem;
 }
 .company-wrapper__list__item__right {
-  width: 70%;
+  width: 60%;
   font-size: 1.25rem;
 }
 .access-wrapper {
-  width: 100%;
+  width: 80%;
+  margin: 0 auto;
   padding: 2.5% 0;
 }
 .access-wrapper__block {
@@ -73,6 +75,13 @@
     background-position: 0;
     height: 30vh;
   }
+  .access-wrapper__block__left iframe {
+    height: 300px;
+  }
+  .access-wrapper__block__right iframe {
+    height: 300px;
+  }
+ 
 }
 
 @media screen and (max-width: 768px) {

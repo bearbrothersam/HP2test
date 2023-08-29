@@ -34,10 +34,11 @@ li {
 	left: 50%;
 	transform: translateY(-50%) translateX(-50%);
 	z-index: 2;
+	box-shadow: 0px 10px 10px rgb(0 0 0 / 40%);
 }
 .header-wrapper__logo {
 	padding-left: 2.5%;
-	width: 18rem;
+	width: 15rem;
 }
 .header-wrapper__logo img {
 	display: block;

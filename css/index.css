@@ -74,6 +74,7 @@
 
 .company-wrapper__right .btn:hover {
 	opacity: 0.7;
+	transition: 0.3s;
 }
 
 .company-wrapper__right .btn a {
@@ -135,6 +136,7 @@
 
 .product-wrapper__left .btn:hover {
 	opacity: 0.7;
+	transition: 0.3s;
 }
 
 .product-wrapper__left .btn a {
@@ -206,6 +208,7 @@
 }
 .recruit .btn a:hover {
 	background: #b3d0d7;
+	transition: 0.3s;
 }
 .recruit .btn i {
 	margin-left: 10%;
@@ -259,6 +262,7 @@
 }
 .contact .btn a:hover {
 	background: #b3d0d7;
+	transition: 0.3s;
 }
 .contact .btn i {
 	margin-left: 10%;

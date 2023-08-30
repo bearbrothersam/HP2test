@@ -23,6 +23,7 @@ li {
 .header-wrapper {
 	max-width: 1440px;
 	width: 90%;
+	padding: 0.5% 0;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
@@ -176,6 +177,9 @@ header .drawer {
 		.__sp {
 			display: none;
 		}
+		.header-wrapper {
+			top: 5%;
+		}
 		.header-wrapper__nav {
 			width: 50%;
 		}
@@ -202,7 +206,7 @@ header .drawer {
 			visibility: visible;
 			width: 24px;
 			position: fixed;
-			top: 90px;
+			top: 40px;
 			right: 60px;
 			border-top: solid 4px #000;
 			cursor: pointer;
@@ -250,16 +254,17 @@ header .drawer {
 			top: 0;
 			left: 0;
 			z-index: 50;
-			background: #000;
+			background: #fff
 		}
 		
 		header .header-wrapper__nav__list {
 			display: block;
-			width: 50%;
+			width: 100vw;
 			position: absolute;
 			top: 50%;
 			left: 50%;
 			transform: translateY(-50%) translateX(-50%);
+			background: #fff;
 		}
 		
 		header .header-wrapper__nav__list__item {

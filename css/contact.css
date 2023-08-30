@@ -78,6 +78,16 @@
     background-position: 0;
     height: 30vh;
     }
+    .top-wrapper__ttl {
+      top: 50%;
+      right: 40%;
+    }
+    .top-wrapper__ttl small {
+      padding-bottom: 5%;
+    }
+    .top-wrapper__ttl p {
+      padding-top: 5%;
+    }
   }
 
   @media screen and (max-width: 768px) {

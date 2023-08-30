@@ -101,11 +101,19 @@
     background-position: 0;
     height: 30vh;
   }
+  .index {
+    width: 35%;
+  }
   .index-wrapper__list__item a {
-    font-size: 1rem;
+    font-size: 1.25rem;
+    letter-spacing: 5px;
   }
   .index-wrapper__list__item:nth-of-type(2) {
     padding: 0 1.5%;
+  }
+  .new-gra-wrapper,
+  .career-wrapper {
+    padding-top: 13%;
   }
 }
 

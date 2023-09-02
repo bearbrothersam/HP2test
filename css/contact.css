@@ -6,6 +6,9 @@
 	height: 50vh;
 	position: relative;
   }
+  .top-wrapper__ttl {
+    right: 40%;
+  }
   .contact {
     width: 90%;
     margin: 0 auto;
@@ -80,8 +83,8 @@
     height: 30vh;
     }
     .top-wrapper__ttl {
-      top: 50%;
-      right: 40%;
+      top: 45%;
+      right: 35%;
     }
     .top-wrapper__ttl small {
       padding-bottom: 5%;

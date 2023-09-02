@@ -80,7 +80,8 @@
 .company-wrapper__right .btn a {
 	display: block;
 	background-color: #d5d5d5;
-	width: 60%;
+	/* width: 60%; */
+	width: 12.5rem;
 	text-align: center;
 	margin: 0 auto;
 	padding: 5% 0;
@@ -92,12 +93,14 @@
 
 .product {
 	width: 85%;
+	max-width: 1084px;
 	margin: 0 auto;
 	background-color: #b3d0d7;
 }
 .product-wrapper {
 	max-width: 1084px;
 	margin: 2.5% auto 5%;
+	padding: 0 2.5%;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
@@ -142,7 +145,8 @@
 .product-wrapper__left .btn a {
 	display: block;
 	background-color: #ffffff;
-	width: 60%;
+	/* width: 60%; */
+	width: 12.5rem;
 	text-align: center;
 	margin: 0 auto;
 	padding: 5% 0;
@@ -168,7 +172,6 @@
 	height: 450px;
 	background-image: url("..//img/recruit_bg.png");
 	background-size: cover;
-	background-position: -50%;
 }
 .recruit h2 {
 	width: 40%;
@@ -187,7 +190,8 @@
 .recruit .txt {
 	color: #fff;
 	display: table;
-	width: 42.5%;
+	/* width: 42.5%; */
+	width: 20rem;
 	margin: 0 auto;
 	padding-top: 7.5%;
 	font-size: 1.25rem;
@@ -201,7 +205,8 @@
 .recruit .btn a {
 	display: block;
 	background-color: #ffffff;
-	width: 27.5%;
+	/* width: 27.5%; */
+	width: 10rem;
 	text-align: center;
 	margin: 0 auto;
 	padding: 2% 0;
@@ -222,7 +227,6 @@
 	height: 450px;
 	background-image: url("..//img/contact_bg.png");
 	background-size: cover;
-	background-position: -50%;
 }
 .contact h2 {
 	width: 40%;
@@ -241,7 +245,8 @@
 .contact .txt {
 	color: #fff;
 	display: table;
-	width: 45%;
+	/* width: 45%; */
+	width: 20rem;
 	margin: 0 auto;
 	padding-top: 7.5%;
 	font-size: 1.25rem;
@@ -255,7 +260,8 @@
 .contact .btn a {
 	display: block;
 	background-color: #ffffff;
-	width: 27.5%;
+	/* width: 27.5%; */
+	width: 10rem;
 	text-align: center;
 	margin: 0 auto;
 	padding: 2% 0;
@@ -274,6 +280,10 @@
 	.top {
 		height: 50vh;
 		position: relative;
+	}
+
+	.company-wrapper__right {
+		width: 20rem;
 	}
 	
 	.product {
@@ -338,7 +348,8 @@
 
 	.company-wrapper__right p {
 		margin: 0;
-		width: 100%;
+		/* width: 100%; */
+		width: 25rem;
 	}
 	.company-wrapper__right .btn {
 		width: 50%;
@@ -359,6 +370,9 @@
 	}
 	.product-wrapper__left h2 {
 		font-size: 1.6rem;
+	}
+	.product-wrapper__left p {
+		width: 25rem;
 	}
 	.product-wrapper__left .btn {
 		width: 50%;
@@ -390,7 +404,8 @@
 		font-size: 1.8rem;
 	}
 	.recruit .txt {
-		width: 40%;
+		/* width: 40%; */
+		width: 22.5rem;
 		padding-top: 7.5%;
 	}
 	.recruit .btn {

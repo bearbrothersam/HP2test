@@ -29,7 +29,8 @@
 }
 .index-wrapper__list__item a {
   display: block;
-  width: 100%;
+  /* width: 100%; */
+  width: 10rem;
   text-align: center;
   font-size: 1.1rem;
 }

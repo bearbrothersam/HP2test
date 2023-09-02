@@ -22,7 +22,7 @@
     margin: 2.5% 0;
   }
   .contact-wrapper__form__box__ttl {
-    width: 30%;
+    width: 35%;
     font-size: 1.15rem;
     position: relative;
   }
@@ -30,7 +30,7 @@
     content: "必須";
     position: absolute;
     top: 50%;
-    left: 67.5%;
+    left: 72.5%;
     transform: translateY(-50%) translateX(-50%);
     text-align: center;
     width: 20%;
@@ -39,6 +39,7 @@
     color: #c72930;
     border: 1px solid #c72930;
     border-radius: 2px;
+    display: inline-block;
   }
   .contact-wrapper__form__box__select {
     width: 30%;

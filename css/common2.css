@@ -29,6 +29,12 @@
 	padding-top: 7.5%;
   }
 
+	@media screen and (max-width: 1024px) {
+		.top-wrapper__ttl {
+			top: 35%;
+		}
+	}
+
 	@media screen and (max-width: 768px) {
 		.top-wrapper__ttl {
 			right: 40%;

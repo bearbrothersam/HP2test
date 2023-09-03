@@ -211,8 +211,8 @@ header .drawer {
 		header .drawer {
 			visibility: visible;
 			width: 24px;
-			position: absolute;
-			top: 27.5px;
+			position: fixed;
+			top: 50px;
 			right: 60px;
 			border-top: solid 4px #000;
 			cursor: pointer;
@@ -273,7 +273,7 @@ header .drawer {
 			width: 100vw;
 			height: 100vh;
 			top: -20px;
-			left: -38px;
+			left: -39px;
 		}
 		
 		header .header-wrapper__nav__list__item {
@@ -334,11 +334,10 @@ header .drawer {
 		.__sp {
 			display: inline-block;
 		}
-	
+		
 		.header-wrapper {
-			top: 4.5%;
-			width: 70%;
-			left: 41%;
+			top: 5%;
+			width: 90%;
 		}
 		.header-wrapper__logo {
 			width: 10rem;
@@ -349,8 +348,8 @@ header .drawer {
 		}
 
 		header .header-wrapper__nav__list {
-			top: -40px;
-			left: -25px;
+			top: -20px;
+			left: -18.5px;
 		}
 		.breadcrumb-wrapper__list__item {
 		  font-size: 0.7rem;
@@ -386,19 +385,50 @@ header .drawer {
 		}
 	}
 
-	@media screen and (max-width: 320px) {
-		.header-wrapper {
-			top: 4.5%;
-			width: 60%;
-			left: 35%;
+	@media screen and (max-width: 420px) {
+		header .header-wrapper__nav__list {
+			top: -24.5px;
+			left: -20.5px;
+			height: calc(100vh + 20px);
 		}
-		header .drawer {
-			top: 5%;
-			right: 10%;
+	}
+	@media screen and (max-width: 400px) {
+		header .header-wrapper__nav__list {
+			top: -14.5px;
+			left: -20.5px;
 		}
+	}
+	@media screen and (max-width: 390px) {
+		header .header-wrapper__nav__list {
+			top: -22px;
+			left: -19.75px;
+		}
+	}
+	@media screen and (max-width: 375px) {
 		header .header-wrapper__nav__list {
 			top: -20px;
-			left: -23px;
+			left: -19px;
+			height: calc(100vh + 20px);
+		}
+		header .header-wrapper__nav__list__item {
+			font-size: 1rem;
+		}
+	}
+
+	@media screen and (max-width: 320px) {
+		.header-wrapper {
+			width: 85%;
+		}
+		header .drawer {
+			top: 4%;
+			right: 12.5%;
+		}
+		header .header-wrapper__nav__list {
+			top: -8.5px;
+			left: -24px;
+		}
+		header .header-wrapper__nav__list__item {
+			font-size: 1rem;
 		}
 	}
 

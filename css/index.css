@@ -81,7 +81,7 @@
 	display: block;
 	background-color: #d5d5d5;
 	/* width: 60%; */
-	width: 12.5rem;
+	width: 17.5vw;
 	text-align: center;
 	margin: 0 auto;
 	padding: 5% 0;
@@ -146,7 +146,7 @@
 	display: block;
 	background-color: #ffffff;
 	/* width: 60%; */
-	width: 12.5rem;
+	width: 17.5vw;
 	text-align: center;
 	margin: 0 auto;
 	padding: 5% 0;
@@ -206,7 +206,7 @@
 	display: block;
 	background-color: #ffffff;
 	/* width: 27.5%; */
-	width: 10rem;
+	width: 15vw;
 	text-align: center;
 	margin: 0 auto;
 	padding: 2% 0;
@@ -261,7 +261,7 @@
 	display: block;
 	background-color: #ffffff;
 	/* width: 27.5%; */
-	width: 10rem;
+	width: 15vw;
 	text-align: center;
 	margin: 0 auto;
 	padding: 2% 0;
@@ -299,7 +299,7 @@
 	}
 
 	.company-wrapper__right {
-		width: 20rem;
+		width: 40vw;
 	}
 	
 	.product {
@@ -315,6 +315,9 @@
 		width: 300px;
 		padding-top: 12.5%;
 	}
+	.recruit .btn a {
+		width: 18vw;
+	}
 	.contact {
 		background-position: 0;
 	}
@@ -328,6 +331,9 @@
 	}
 	.contact .btn {
 		margin-top: 10%;
+	}
+	.contact .btn a {
+		width: 18vw;
 	}
 }
 
@@ -370,12 +376,15 @@
 	.company-wrapper__right p {
 		margin: 0;
 		/* width: 100%; */
-		width: 25rem;
+		width: 70vw;
 		
 	}
 	.company-wrapper__right .btn {
 		width: 50%;
 		margin: 2.5% auto 0 auto;
+	}
+	.company-wrapper__right .btn a {
+		width: 25vw;
 	}
 
 	.product-wrapper {
@@ -394,11 +403,14 @@
 		font-size: 1.6rem;
 	}
 	.product-wrapper__left p {
-		width: 25rem;
+		width: 50vw;
 	}
 	.product-wrapper__left .btn {
 		width: 50%;
 		margin: 2.5% auto;
+	}
+	.product-wrapper__left .btn a {
+		width: 25vw;
 	}
 	.product-wrapper__right {
 		width: 80%;
@@ -427,7 +439,7 @@
 	}
 	.recruit .txt {
 		/* width: 40%; */
-		width: 22.5rem;
+		width: 50vw;
 		text-align: center;
 		padding-top: 7.5%;
 	}
@@ -448,13 +460,15 @@
 	}
 	.contact .txt {
 		/* width: 45%; */
-		width: 25rem;
+		width: 50vw;
 		text-align: center;
 		padding-top: 7.5%;
 	}
 	.contact .btn {
 		margin-top: 10%;
 	}
+
+	
 }
 
 @media screen and (max-width:480px) {
@@ -478,7 +492,7 @@
 	}
 	.company-wrapper__right p {
 		font-size: 0.7rem;
-		width: 18rem;
+		width: 65vw;
 	}
 	.company-wrapper__right .btn {
 		width: 100%;
@@ -502,6 +516,7 @@
 	}
 	.product-wrapper__left p {
 		font-size: 0.7rem;
+		width: 70vw;
 	}
 	.product-wrapper__left .btn {
 		width: 100%;
@@ -577,7 +592,6 @@
 	}
 	.company-wrapper__right p {
 		font-size: 0.6rem;
-		width: 14rem;
 	}
 	.company-wrapper__right .btn a {
 		width: 55%;

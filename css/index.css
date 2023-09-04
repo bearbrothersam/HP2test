@@ -439,12 +439,15 @@
 	}
 	.recruit .txt {
 		/* width: 40%; */
-		width: 50vw;
+		width: 65%;
 		text-align: center;
 		padding-top: 7.5%;
 	}
 	.recruit .btn {
 		margin-top: 10%;
+	}
+	.recruit .btn a {
+		width: 30%;
 	}
 	.contact {
 		width: 100%;
@@ -460,14 +463,16 @@
 	}
 	.contact .txt {
 		/* width: 45%; */
-		width: 50vw;
+		width: 70%;
 		text-align: center;
 		padding-top: 7.5%;
 	}
 	.contact .btn {
 		margin-top: 10%;
 	}
-
+	.contact .btn a {
+		width: 30%;
+	}
 	
 }
 

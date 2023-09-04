@@ -92,6 +92,7 @@
     .top-wrapper__ttl p {
       padding-top: 5%;
     }
+    
   }
 
   @media screen and (max-width: 768px) {
@@ -108,11 +109,12 @@
     }
     .contact-wrapper__form__box__ttl {
       font-size: 1rem;
-      width: 50%;
+      width: 55%;
     }
     .contact-wrapper__form__box__ttl::after {
       width: 20%;
       line-height: 1.5;
+      left: 80%;
     }
     .contact-wrapper__form__box__select, 
     .contact-wrapper__form__box__input,
@@ -121,7 +123,7 @@
       margin: 3% 0;
     }
     .contact-btn {
-      width: 15%;
+      width: 20%;
     }
   }
 
@@ -131,7 +133,7 @@
     }
     .contact-wrapper__form__box__ttl {
       font-size: 0.9rem;
-      width: 85%;
+      width: 70%;
     }
     .contact-wrapper__form__box__ttl::after {
       width: 20%;
